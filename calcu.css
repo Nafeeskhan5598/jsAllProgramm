@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+}
+#formate{
+    height: 446px;
+    width: 300px;
+    background: #0005;
+    border: 2px solid white;
+    letter-spacing: 10px;
+    margin-left: 80px;
+
+    
+}
+#formate h1{
+    color: white;
+    text-align: center;
+    margin-top: 56px;
+    box-shadow: 0px 9px red, 0em 40px 1.4em rgb(2, 128, 128);
+    font-size: 34px;
+}
+#background{
+    margin-left: 10px;
+    margin-top: 45px;
+}
+#label{
+    width: 270px;
+    height: 43px;
+    /* margin-left: 10px; */
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+
+}
+.flex-container .content{
+   width: 66px;
+   height: 40px;
+   border: 1px dotted red;
+   border-radius: 10px;
+   padding: 10px;
+   /* box-shadow: 15px; */
+   margin:3px;
+   background: black;
+   color: white;
+   cursor: pointer;
+box-shadow: inset 5em 1em gold;
+
+
+box-shadow:  -3px 3px red, -1em 2px 0.4em rgb(2, 128, 128);
+ 
+}
+
+#zero{
+    width: 105px;
+    margin-top: -43px;
+}
+#dot{
+ 
+    margin-top: -43px;
+}
+#plas{
+    
+    margin-top: -43px;
+}
+
+.flex-container :hover  {
+    background-color: rgb(238, 69, 69);
+    color: black; 
+    border: 1px dotted black;
+}
+
+#footer{
+    color: rgb(39, 194, 19);
+}
+#equalto{
+    width: 450px;
+    margin-top: 4px;
+}
+

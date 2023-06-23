@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.header{
+    width: 700px;
+    height: auto;
+    border: 2px solid black;
+    margin: 47px auto;
+    background-color: burlywood;
+}
+.header h1{
+    margin-left: 264px;
+}
+.intro{
+    padding: 23px;
+}
+#button{
+    background-color: yellowgreen;
+    color: unset;
+background: tomato;
+}
+#button{
+    margin-left: 45px;
+}
+#info{
+    list-style: number;
+    display: none;
+    
+}
+
