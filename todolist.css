@@ -1,0 +1,15 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: royalblue;
+}
+form{
+    background: black;
+    color: white;
+    border: 2px solid white;
+    height: auto;
+    width: 300px;
+}

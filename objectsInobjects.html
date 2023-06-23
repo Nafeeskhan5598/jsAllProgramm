@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = {                  //objects
+            fname : 'yahoo',
+            lname : 'baba',
+            age  : 35,
+            email : '0160nafeeskhan@gmail.com',
+            favMovies : ['dhoom','sholay','hum','hiropanti','bahubali','wanted',],
+      living : {                                
+            'city' : 'chandigarh',              //in objects
+            'country' : 'india'
+      },
+      
+      
+            salary : function(){                    //function
+        return 25000;
+       },
+       fullname : function(){                           //function
+        return this.fname + " " + this.lname;
+       }
+        }
+        console.log(a);
+        document.write(a.living.city);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+   
+        // let x, y,z;
+        // x=5;
+        // y=6;
+        // z=x+y;
+        // document.getElementById("demo").innerHTML="the value of z is" + z +".";
+
+
+        // a = 1;
+        // alert('a'+ a);
+
+        // var s = new Date();
+        // document.write(s.toDateString());
+
+        
+
+        <body>
+                     
+
+                     <h2>Bubbling Event in Javascript</h2>
+                
+
+                   
+                
+
+                     <div id="parent">
+                
+
+                         <button>
+                
+
+                             <h2>Parent</h2>
+                
+
+                         </button>
+                
+
+                         <button id="child">
+                
+
+                   
+                
+
+                             <p>Child</p>
+                
+
+                   
+                
+
+                         </button>
+                
+
+                     </div><br>
+                
+
+                   
+                
+
+                   
+                
+
+                     <script>
+                
+
+                         document.getElementById(
+                
+
+                         "child").addEventListener("click", function () {
+                
+
+                             alert("You clicked the Child element!");
+                
+
+                         }, true);
+                
+
+                           
+                
+
+                         document.getElementById(
+                
+
+                         "parent").addEventListener("click", function () {
+                
+
+                             alert("You clicked the parent element!");
+                
+
+                         }, true);
+                
+
+                   
+                
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    }
+        #clock{
+        height: 99px;
+        background: #e67856;
+          background-color: rgb(230, 120, 86);
+        width: 441px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        border: 9px dotted green;
+        border-radius: 61px;
+        box-shadow:  -1px 9px #00ff9f, 0em 70px 1.4em rgb(17, 170, 222);
+      }
+    
+    #clock h1{
+        text-align: center;
+    }
+    #clock{
+        font-size:78px;
+    font-style: initial;
+    font-family: revert;
+    margin-top: 204px;
+    }
+    #equalto{
+        width: 490px;
+        margin-top: 4px;
+    }
+    #button1{
+        width: 153px;
+    height: 70px;
+    font-size: 30px;
+    color: red;
+    background: center;
+    margin: 145px 0px 0px  1109px;
+    border-radius: 61px;
+    box-shadow:  -1px 9px #00ff9f, 0em 70px 1.4em rgb(17, 170, 222);
+    }
+    

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>welcome to my page</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos quia fugit consectetur tempore, aspernatur
+        nobis sunt inventore debitis autem delectus neque corrupti tenetur quo cum nihil explicabo laboriosam porro ut,
+        temporibus officiis eum quas aliquam.</p>
+
+        <form action="">
+            <label for="">Name</label><input type="text" name="txt" id="firstn">
+
+        </form>
+        <div id="List">
+            <ul id="ul">
+                <li>hello</li>
+                </ul>
+            </div>
+        </div>
+        <button id="btn1"  onclick="btn1()">add</button>
+    <script>
+
+function btn1(){
+    let userValue = document.getElementById('firstn').value
+    document.getElementById('ul').innerHTML += `<br>${userValue}`
+}
+
+
+    </script>
+</body>
+
+</html>

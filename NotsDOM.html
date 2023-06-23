@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/student.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header">
+        <h2 id="header-title">Nafees</h2>
+        <p id="tagline">computer Education</p>
+    </header>
+    <div id="content">
+        <h4>Courses</h4>
+        <ul id="items">
+            <li class="list-item">Graphics</li>
+            <li class="list-item">Web</li>
+            <li class="list-item">Video</li>
+            <li class="list-item">3D</li>
+            <li class="list-item">video Graphics</li>
+            <li class="list-item">2D enimation</li>
+            <li class="list-item">VFX</li>
+            <li class="list-item">software develop</li>
+
+        </ul>
+        <form>
+            <input type="text">
+            <input type="submit">
+        </form>
+        </form>
+    </div>
+    <script>
+        // ===============================DOM Border ById =======================    
+        // var headerTitle = document.getElementById('header');
+        // headerTitle.innerHTML = '<h1>hello</h1>';
+        // var header = document.getElementById('header');
+        // header.style.borderBottom = '10px solid #000';
+
+
+        // ===============================DOM Formating=======================    
+
+        // var items = document.getElementsByClassName('list-item');
+        // items[1].textContent = 'Animation';     //content change
+        // items[2].style.fontWeight = 'bold';        //BOLD TEXT
+        // items[3].style.color = 'red';  
+        // items[2].style.backgroundColor= 'yellow';
+
+        // for(var i=0; i<items.length; i++){              //all items backgrounnd color is pink
+        //     items[i].style.backgroundColor = 'pink';
+
+        // }
+
+        // ===============================DOM Quary Selecter  ID =======================    
+
+        // var headLine = document.querySelector('#tagline');
+        // headLine.style.color = 'red';   //red color in computer education (element)
+
+        // ===============================DOM Quary Selecter first item for   Class =======================    
+
+
+        // var items = document.querySelector('.list-item');
+        //  items.style.color = 'green';    //only first value par hi color change hoga
+
+
+        // ===============================DOM Quary Selecter All item  me se kisi bhi itme for   Class =======================    
+
+        //  var items = document.querySelectorAll('.list-item');
+        //  items[2].style.color = 'green';   //3 waLA ITEM ME COLOR HOGA
+
+
+        // ===============================DOM Quary Selecter LAST CHAILDE for   Class =======================    
+
+        //   var items = document.querySelector('.list-item:last-child');
+
+        //  items.style.color = 'red';   // only iast child me color
+
+        // ===============================DOM Quary Selecter input type button control =======================    
+
+        // var input = document.querySelector('input');
+        // input.value = 'Enter your name:';
+
+        // var button =
+        //     document.querySelector('input[type="submit"]');
+        // button.style.backgroundColor = 'red';
+        // button.style.color = 'blue';
+        // button.value = 'SEND';
+
+
+        // ===============================DOM Quary odd and even  number background =======================    
+
+
+        // var odd = document.querySelectorAll('li:nth-child(odd)');
+
+        // for (var i = 0; i < odd.length; i++) {
+        //     odd[i].style.backgroundColor = 'yellow';
+        // }
+
+        // var even = document.querySelectorAll('li:nth-child(even)');
+
+        // for (var i = 0; i < even.length; i++) {
+        //     even[i].style.backgroundColor = 'red';
+        // }
+
+
+        // ===============================DOM html update =======================  
+        //create div
+        // var newDiv = document.createElement('div');
+
+        // //add class
+        // newDiv.className = 'box';
+
+        // // add id
+        // newDiv.id = 'textBox';
+
+        // //create Text
+        // var newDivText = document.createTextNode('its me khan nafees khan');
+  
+
+        // //ass text to div form appned child
+        // newDiv.appendChild(newDivText);
+
+        // // console.log(newDiv);
+
+
+        //     var container = document.querySelector('#content');
+
+        //     var form = document.querySelector('form');
+        //         //css
+        //     newDiv.style.color = 'blue';
+        //     newDiv.style.backgroundColor = 'red';
+        //     newDiv.style.border = '3px solid green';
+        //     newDiv.style.padding = '10px';
+            
+            
+            
+            
+        //     container.insertBefore(newDiv,form);
+
+
+
+        // ===============================DOM prectic =======================  
+
+                
+        const x = document.querySelectorAll('header-title');
+        document.getElementById("header").innerHTML = 
+'The first paragraph (index 0) with class="intro" is: ' + x[0].innerHTML;
+    </script>
+</body>
+
+</html>

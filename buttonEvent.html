@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Introduction</h1>
+        <div class="intro">
+            <p id="demo">Its me khan nafees khan, i heve done BCA in computer science to makhanlal chaturwadi national
+                univercity of bhopal, i live in jhalawar, jhalawar is our distic Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Molestiae optio explicabo deleniti qui omnis tenetur nobis, consequatur impedit ea
+                veritatis
+                modi? Iusto eveniet accusamus enim reiciendis qui! Facilis, esse in repellat voluptate saepe repellendus
+                quibusdam! Nam incidunt quos laboriosam id, ullam facere, quam praesentium eligendi cum, tempora quod
+                optio
+                ratione? </p>
+
+                    <form action="">
+                        <label for="">Name:</label><input type="text" name="txt" id="fname">
+                        <label for="">Class:</label><input type="text" name="txt" id="class">
+                    </form>
+                    <div id="list">
+                        <ol id="ul">
+                            <li>Hello</li>
+                        </ol>
+                    </div>
+
+
+             <button id="button" onclick=btn()>Show Result</button> 
+
+            <button id="button" onclick=btn2()>Hide content</button>  
+ 
+    </div> 
+    <script>
+
+        // const info = document.querySelector('#info')
+
+        function btn() {
+            let userValue = document.getElementById('fname').value
+            // console.log("userValue", userValue)
+            document.getElementById('ul').innerHTML += `<li>${userValue}</li>`
+        }
+        // function btn2() {
+           
+        //    let userValue = document.getElementById('class').value
+        //    document.getElementById('ul').innerHTML += `<li>&{userVlue}</li>`
+        // }
+           
+            // info.style.display = "none";
+        
+        // var element;
+        // element = document.links[0];
+        // console.log(element);
+
+
+
+// function addStudent()
+// {
+//     var rollno=document.sample.rollno.value;
+//     var name=document.sample.name.value;
+
+//     var tr = document.createElement('tr');
+    
+//     var td1 = tr.appendChild(document.createComment('td'));
+//     var td2 = tr.appendChild(document.createComment('td'));
+
+//             td1.innerHTML=rollno;  
+//                 td2.innerHTML=name;
+
+//         document.getElementById("tb1").appendChild(tr)
+// }
+
+    </script>
+</body>
+
+</html>

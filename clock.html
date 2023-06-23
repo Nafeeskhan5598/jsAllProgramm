@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cloc.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <h1>Its Current Time</h1>
+    <button type="button" id="button1" onclick="window.clearInterval(clock)">Stop Time</button>
+    </div>
+    <div id="clock">
+    </div>
+    <script>
+        var clock = setInterval(clockTiming);
+        function clockTiming() {
+            var d = new Date();
+            var nafees = d.toLocaleTimeString();
+            // document.write(nafees);
+            document.getElementById('clock').innerHTML = nafees;
+        }
+
+    </script>
+
+</body>
+
+</html>

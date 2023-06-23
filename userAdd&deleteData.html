@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/indexin.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<div  id="content">
+    <div id="header">
+<h1>This is hide and show content</h1>
+<p id="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut molestiae dolore voluptatum officia
+     quisquam necessitatibus suscipit consequatur numquam cumque magni! Nisi sapiente maxime libero
+      optio sed, saepe corporis rerum voluptate, dolorem, eaque tempore vitae asperiores.</p>
+</div>
+<div>
+    <form action="">
+        <label for="">name</label><input type="text" name="txt" id="fname">
+        <!-- <label for="">class</label><input type="text" name="text" id="class"> -->
+
+    </form>
+    <div id="list">
+        <ol id="ol" >
+       
+            <!-- <li id="delete">website  <button type="button" onclick="del()">del</button> </li>
+            <li id="delete2" >software <button type="button" onclick="del2()">del</button></li>
+            <li id="delete3">web page <button type="button" onclick="del3()">del</button> </li>  -->
+           
+        </ol>
+
+        
+    
+    <button type="button" onclick="btn1()" id="button1">display</button>
+    <button type="button" onclick="btn2()" id="button2">delete</button>
+    </div>
+    </div>
+</div>
+    <script>
+
+function btn1(){
+    let userValue = document.getElementById('fname').value
+    document.getElementById('ol').innerHTML += `<li>${userValue}<button type="button" 
+        onclick="del(event)">del</button></li>`
+}
+function btn2(){
+    let userValue = document.getElementById('ol').innerHTML = ' '
+}
+function del(event){
+    event.currentTarget.parentNode.remove();
+}
+
+
+
+let car = document.getElementById('demo')
+car.innerHTML = car.innerText.lastIndexOf()
+
+
+
+
+
+
+
+
+
+// let str = document.getElementById('demo')
+// str.innerHTML = str.innerText.toUpperCase()
+//  = newData
+
+// console.log(newData);
+// str.style.textTransform = "capitalize";
+// document.write(str.innerHTML.toUpperCase())
+// console.log(str.innerText.toUpperCase());
+
+
+
+// function btn1() {
+//   let userValue = document.getElementById('fname').value
+//   document.getElementById('ol').innerHTML += `<li>${userValue} 
+//       <button type="button" onclick="del(event)">del</button></li>`
+// }
+// function btn2() {
+
+//   let userValue = document.getElementById("ol").innerHTML = " ";
+// }
+
+
+// function del(event) {
+//   event.currentTarget.parentNode.remove()
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // function btn1() {
+    //     let userValue = document.getElementById('fname').value
+    //     document.getElementById('ol').innerHTML += `<li>${userValue} 
+    //         <button type="button" onclick="del(event)">del</button></li>`
+    //   }
+    //   function btn2() {
+      
+    //     let userValue = document.getElementById("ol").innerHTML = " ";
+    //   }
+      
+      
+    //   function del(event) {
+    //     event.currentTarget.parentNode.remove()
+    //   }
+
+
+
+
+
+
+
+
+      // let userValue = document.getElementById("delete").innerHTML = ` `
+      // function del2() {
+      //   let userValue = document.getElementById("delete2").innerHTML = ` `
+      // }
+      // function del3() {
+      //   document.getElementById("delete3").remove()
+      // }
+      
+      </script>
+      </body>
+      </html>

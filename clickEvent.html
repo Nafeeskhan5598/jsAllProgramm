@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #btn{
+        padding: 10px 5px;
+        background-color: red;
+        color: wheat;
+        border: 2px solid green;
+        border-radius: 8px;
+        cursor: pointer;
+       } 
+    </style>
+</head>
+
+<body>
+    <h1>welcome to my web paragraph</h1>
+    <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore soluta quasi similique omnis. Perferendis facilis,
+    quas recusandae veniam suscipit officiis tempora? Ex obcaecati nulla soluta vel? Ipsum aut placeat assumenda
+    laboriosa, libtis delectus vitae minima? Mollitia, placeat blanditiis. Nam corrupti
+    consequatur quaerat, quibusdam adipisci id a reprehenderit esse maiores accusamus, magnam dolor ab quia sunt
+    veritatis ut?</p>
+    <button id="btn" onclick="toggleHide()">Show/Hide</button>
+    <script>
+        //  let para = document.getElementById('para');
+        // para.addEventListener('mouseover', function run(){
+        //     console.log('CLICK EVENTS ITS WORK')
+        // });
+        // para.addEventListener('mouseout', function run(){
+        //    console.log('HELLO GOOD MORNING')
+        // });
+
+
+
+    //     function toggleHide(){
+    //      let btn  = document.getElementById('btn');
+    //      let para = document.getElementById('para');
+    //      if(para.style.display != 'none'){
+    //      para.style.display = 'none';
+    //     }
+    //     else{
+    //         para.style.display = 'block';
+    //     }
+    // }
+
+
+function myFunction(p1, p2){
+    return p1 * p2;
+}
+document.getElementById("para").innerHTML = myFunction(5, 8);
+ </script>
+</body>
+
+</html>

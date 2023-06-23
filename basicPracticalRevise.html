@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/indexin.css"> -->
+    <title>Document</title>
+
+</head>
+<!-- <style>
+    /* ul {
+        display: block;
+    }
+li {
+        display: none;
+    } */
+    #info{
+        display: none;
+    }
+</style> -->
+
+<body>
+    <h1>Console</h1>   
+    <!-- <form name = "form1">  
+      
+      This input box shows the button pressed by the user in calculator. -->  
+      <!-- <input id = "label" type ="text" name = "answer"> <br> <br>   -->
+      <!-- Display the calculator button on the screen. -->  
+      <!-- onclick() function display the number prsses by the user. -->  
+      <!-- <input type = "button" value = "1" onclick = "form1.answer.value += '1' ">  
+      <input type = "button" value = "2" onclick = "form1.answer.value += '2' ">  
+      <input type = "button" value = "3" onclick = "form1.answer.value += '3' ">  
+       <input type = "button" value = "+" onclick = "form1.answer.value += '+' ">  
+
+   </form>
+   </div>
+    <script> --> 
+        <!-- // -----------------------------------logical oprator---------------------------------
+        // let x = 10;
+        // let y = 20;
+        // console.log(x<y) -->
+
+     <!-- / --> 
+
+        <!-- //    -------------------------------value change in Object------------------
+
+        //  let person = {
+        //     fname : 'nafees',
+        //     lname : 'khan',
+        //     age : 23
+        //  };
+        //  for(let key in person){
+        //     console.log(key + ' : ' + person[key] );
+        //  }; -->
+
+        <!-- // ------------------------------Date & Time-------------------------
+        // function displayDate(){
+        //     document.getElementById('demo').innerHTML = Date();
+        // } -->
+
+        <!-- // --------------------hide & show content---------------------
+        // function btn1(){
+        //   let userValue = document.getElementById('fname').value;
+        //     document.getElementById('ul').innerHTML += `<li>${userValue}</li>`
+        // }
+        // function btn2(){
+
+        //    let userValue = document.getElementById("ul").innerHTML = " " ;  
+        // }
+
+
+        // function del(){
+        // let userValue = document.getElementById("delete").innerHTML = ` `
+        // }
+        // function del2(){
+        // let userValue = document.getElementById("delete2").innerHTML = ` `
+        // }
+        // function del3(){
+        // let userValue = document.getElementById("delete3").innerHTML = ` `
+        // } --> 
+
+
+            <!-- <button  onclick="document.getElementById('demo').innerHTML = Date()">Click me</button>
+        // //     <button  onclick="this.innerHTML = Date()">button</button> -->
+        <!-- <button  onclick="displayDate()">Click me</button> -->
+
+<!-- ----------------------------------------------Todo list--------------------------------------- -->
+             <!-- <div  id="content">
+            <div id="header">
+        <h1>This is hide and show content</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut molestiae dolore voluptatum officia
+             quisquam necessitatibus suscipit consequatur numquam cumque magni! Nisi sapiente maxime libero
+              optio sed, saepe corporis rerum voluptate, dolorem, eaque tempore vitae asperiores.</p>
+        </div>
+        <div>
+            <form action="">
+                <label for="">name</label><input type="text" name="txt" id="fname">
+                 <label for="">class</label><input type="text" name="text" id="class"> -->
+
+         <!-- </form>
+            <div id="list">
+                <ol id="ol" >
+
+         </ol>
+
+            <button type="button" onclick="btn1()" id="button1">display</button>
+            <button type="button" onclick="btn2()" id="button2">delete</button>
+            </div>
+            </div>
+        </div>
+            <script src="js/indexof.js">
+          <button type="button" onclick="btn()">change value</button>
+            <p id="demo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum repellat unde nemo odit, quasi itaque
+                voluptatem vitae quam eius accusamus temporibus molestias illo, suscipit reprehenderit et. Ipsum, sunt!
+                Necessitatibus, quas.
+            </p> -->
+
+           
+
+        <!-- var str = "javascript is a great language";
+        var a = str.toUpperCase();
+        document.write(a);
+
+        // ------------------------------------concate(+)---------------------------
+        // var str = "JavaScript is a great language";
+        // var str2 = "Hello";
+        // var str3 = "word";
+        // var a = str.concat(str2,str3);
+        // document.write(a);
+        // ------------------------------------Change Value---------------------------
+
+        // function btn(){
+        //      let text = document.getElementById("demo").innerHTML;
+        //     document.getElementById("demo").innerHTML = "nafees";
+        // }
+
+        // -------------------------------------$ print 10bar--------------------------------
+        // let text = "5";
+        // document.getElementById("demo").innerHTML = text.padEnd(10, "$");
+
+        // -------------------------------------not work  text print in bottom --------------------------------
+        // let text =  "nafees";
+        // const myArr = text.split(" ");
+        // text = " ";
+        // for(let i=0; i<myArr.length; i++){
+        //     text += myArr[i]+"<br>";
+
+        // }
+        // document.getElementById("demo").innerHTML = text;
+        // // document.write(text);
+
+        // -------------------------------------last index show--------------------------------
+        // let text = "please  kljasd 'locate' occ";
+        // document.getElementById("demo").innerHTML = text.startsWith("please");
+
+
+        // -------------------------------------Template Litrals--------------------------------
+        // let fisrtName = "nafees";
+        // let lastName  = "khan";
+        // let text = `Welcome
+        // <br> ${fisrtName}
+        // <br> ${lastName}`;
+        // document.write(text)
+        // -------------------------------------Template Litrals ol --------------------------------
+        // let header = "Template Litlars";
+        // let list = ["HTML", "CSS", "javascrip", "react"];
+        // let html = `<h2>${header}</h2><ol>`;
+        //     for(const x of list){
+        //         html += `<li>${x}</li>`;
+
+        //     }
+        //     html += `</ol>`;
+        //     document.write(html)
+
+        // -----------------------------------ForEach() --------------------------------
+        // let bike = {
+        // 	name : "TVS Apache",
+        // 	weight : "150kg",
+        // 	color : "White",
+        // 	max_speed : "110 to 160 km/h",
+        // 	start : function(){
+        // 		return "Bike start";
+
+        // 	}
+
+        // };
+        // console.log("color")
+        // -----------------------------------ForEach() --------------------------------
+
+        // var a = ["rahul", "jyoti", "karan", "ajay"];
+        // a.forEach(loop)
+        // function loop(value, index){
+        //     document.write(index + ":" + value + " " +   "<br>")
+
+        //     }
+
+        // -----------------------------------*/ --------------------------------
+
+        // const nafeesKhan = prompt('Enter the base of a triangle: ');
+        // const heightValue = prompt('Enter the height of a triangle: ');
+
+        // // calculate the area
+        // const khan = (nafeesKhan * heightValue ) / 2;
+
+        // console.log(
+        //     `The area of the triangle is ${khan}`
+        // ); -->
+
+     <!-- // -----------------------------------swaping 2 variables --------------------------------
+
+// let a = prompt('enter first varable :');
+// let b = prompt('enter second variable :');
+// let temp;
+// temp = a;
+// a = b;
+// b = temp;
+// console.log(`the variable first swapping : ${a}`);
+// console.log(`the variable second swapping : ${b}`);
+
+ // -----------------------------------swaping fifo variables --------------------------------
+
+// let a = parseInt(prompt('Enter the first variable: '));
+// let b = parseInt(prompt('Enter the second variable: '));
+
+// // addition and subtraction operator
+// a = a + b;
+// b = a - b;
+// a = a - b;
+
+// console.log(`The value of a after swapping: ${a}`);
+// console.log(`The value of b after swapping: ${b}`);
+
+
+ // -----------------------------------search Even & Odd Number --------------------------------
+//  let number = prompt("enter the any number.");
+//  if(number %2 == 0){
+//     document.write("The number is  even");   
+//  }
+//  else{
+//     document.write("the number is a odd");
+
+
+// const ulr12 = document.ulr12
+// console.log('ulr12')
+</script> -->
+
+<!-- -=--------------------------------------array------------------------------------ -->
+<!-- <script>
+    let name = ["nafees", "zuned", "irfan"]
+    name.shift();
+    // name.unshift("matin");
+
+    // name.pop()
+    document.write(name);
+</script> -->
+<!-- -------------------------------sorting-------------------------------- -->
+<!-- <p id="demo"></p>
+<script>
+    const num = [40, 50,10,70];
+    document.getElementById("demo").innerHTML= num;
+    num.sort(function(a,b){return b-a});
+</script> -->
+<!-- -----------------------------------------sorting Number with button--------------------- -->
+<!-- <p id="demo"></p>
+<button onclick="myFuncion1()">Alphabetically</button>
+<button onclick="myFuncion2()">Numerically</button>
+<script>
+    let points = [50,30,10,80,100,55,60];
+   
+    // document.getElementById("demo").innerHTML = points;
+
+    function myFuncion1(){
+        points.sort(function(a,b){return a-b});
+        document.get
+        ElementById("demo").innerHTML = points;
+    }
+
+    function myFuncion2(){
+        points.sort(function(a,b){return b-a});
+        document.getElementById("demo").innerHTML = points;
+    }
+</script> -->
+
+
+
+
+<p id="demo"></p>
+<!-- ----------------------------------------sorting car-------------------------------------- -->
+<!-- <script>
+    const cars = [
+        {type: "BMW", year: "1999"},
+        {type: "swift", year: "2008"},
+        {type: "ranhrover", year: "2000"}
+
+    ];
+     displayCars()
+     cars.sort(function(a,b){return a.year - b.year});
+     
+
+     function displayCars(){
+        document.getElementById("demo").innerHTML = cars[0].type + " " + cars[0].year + "<br>" +
+          cars[1].type + " " + cars[1].year  + "<br>" +
+        cars[2].type + " " + cars[2].year 
+     } </script> -->
+     <!-- ---------------------------------------------Number 50 print-----------------------------------------------------
+     <script>
+for(let i=0; i<50; i++){
+    console.log(i+1); 
+}
+     </script> -->
+
+
+     <!-- <script>
+        let myArr = ["nafees", "khan", "pathan"];
+        let f = myArr.entries();
+for (let x of f){
+document.getElementById("demo").innerHTML  += x + "<br>"
+}
+     
+
+        // let length = myArr.length
+        console.log(myArr)
+     </script> -->
+
+
+     <!-- <script>
+        const jsonData = {
+            "data":[
+            {
+            id: 1,
+            name: "nafees",
+            city: "jhalawar",
+            state: "rajsthan",
+            pin: 326039
+            },
+            {
+            id: 2,
+            name: "nihal",
+            city: "jhalawar",
+            state: "rajsthan",
+            pin: 326039
+            },
+            {
+            id: 3,
+            name: "sidharth",
+            city: "jhalawar",
+            state: "rajsthan",
+            pin: 326039
+            },
+            {
+            id: 4,
+            name: "ashu",
+            city: "jhalawar",
+            state: "rajsthan",
+            pin: 326039
+            },
+            {
+            id: 5,
+            name: "nafees",
+            city: "jhalawar",
+            state: "rajsthan",
+            pin: 326039
+            },
+            {
+            id: 6,
+            name: "chandrakant",
+            city: "jhalawar",
+            state: "rajsthan",
+            pin: 326039
+            },
+            {
+            id: 7,
+            name: "kaif",
+            city: "jhalawar",
+            state: "rajsthan",
+            pin: 326039
+            },
+            {
+            id: 8,
+            name: "parvin",
+            city: "jhalawar",
+            state: "rajsthan",
+            pin: 326039
+            },
+            {
+            id: 9,
+            name: "jay",
+            city: "jhalawar",
+            state: "rajsthan",
+            pin: 326039
+            }, 
+              {
+            id: 10,
+            name: "rahul",
+            city: "jhalawar",
+            state: "rajsthan",
+            pin: 326039
+            },
+         
+        ]
+        };
+
+
+
+    const dataArray = jsonData.data; -->
+<!-- // ==========================================================for loop===================================
+    //    for(let i=0; i<5 && i<dataArray.length; i++){
+    //     const id = dataArray[i].id;
+    //     const name = dataArray[i].name;
+    //     const city = dataArray[i].city;
+    //     console.log(`${i+1}: ID = ${id}, Name = ${name}, city = ${city}`);
+
+    //    } -->
+<!-- // ===========================================================for Each====================================
+// dataArray.forEach((value,index) => {
+//     if(index < 5){
+// const id = dataArray[index].id
+// const name = dataArray[index].name
+// const city = dataArray[index].city
+// console.log(`${index + 1}: id : ${id}, name : ${name} city : ${city}`)
+//     }
+// }); -->
+
+<!-- // ==================================================================for in ====================================
+// for(let i in dataArray){
+//     if(i<5){
+//         const id = dataArray[i].id
+//         const name = dataArray[i].name
+//         const city = dataArray[i].city
+//         console.log(`$(id) : id = ${id}, name = ${name}, city = ${city}`)
+//     }
+// } -->
+
+<!-- ------------------------ --
+
+<script>
+    let person = {
+        name : "nafees",
+        age : 24,
+        city : "jwr"
+    };
+    for(nnn in person){
+      document.write(nnn + ' : ' + person[nnn] + '<br>')
+    }
+</script> -->
+<!-- // =======================================================================for of ========================================
+var count = 0
+for(let j of dataArray){
+    count++
+    if(count<5){
+        const id = j.id
+        const name = j.name
+        const city = j.city
+        console.log(`$(const) : id = ${id}, name = ${name}, city = ${city}`)
+    }
+}
+</script> -->
+
+
+<!-- <script>    
+    var a = ["sanjay", "aman", "rehan", "aadil"];
+    var  a =  a.splice("neha","karan");
+    console.log(a); 
+- </script>-->
+ <!-- =============================================while Loop==================================== --> 
+ <!-- <script>
+    var a = 1
+    while(a <= 10){
+        document.write(a+"<br>")
+    a++
+    }
+
+</script>  -->
+<!-- -----------------------------------------------Odd & Even Number--------------------------------------
+ <script>
+
+const number = prompt("the number is : ")
+if (number % 2 == 0){
+    console.log(number + " " + "the number is even")
+}
+else{
+    console.log(number + " " + "the number is Odd")
+}
+
+</script> -->
+
+<!-- ----------------------------------------condition(if Else)---------------------------------------
+<script>
+var age = 20
+if (age >= 18 && age <= 21){
+    console.log("yes you are  eligible")
+} else{
+    console.log("No you  are not eligible");
+}
+</script> -->
+<!-- <script> 
+
+// var per = prompt("your percent is :");
+// if(per >=80 && per  <= 100){
+//     console.log("you are marit.");
+// } else if( per >=60 && per <= 80){
+//     console.log("your are first division");
+// }else if(per >= 45 && per <= 60){
+//     console.log("you aer second division");
+// }else if(per >= 32 && per <=45){
+//     console.log("you are third division")
+// }else if(per < 32){
+//     console.log("fail");
+// }else{
+//     console.log("please enter valid percent");
+// }
+  
+</script> -->
+<!-- --------------------------------------------------Data Hide & show ------------------------------
+<button id="btn1" onclick="button1()">Show Data </button>
+<button id="btn2" onclick="button2()">Hide Data</button>
+<div id="info">
+<ul>
+    <li> Name : nafees khan </li>
+    <li> MObile : 9610968586</li>
+    <li> Age : 24 </li>
+</ul>
+</div>
+</div>
+
+<script>
+const info = document.querySelector('#info')
+
+function button1(){
+    
+    info.style.display = "block";
+
+}
+function button2(){
+    info.style.display = "none" 
+   
+}
+console.log(info);
+</script> -->
+
+<!-- -------------------------------------------------TUDO LIST-----------------------------------------
+<form>
+<label for="">Name</label> <input type="text" name="txt" id="fname">
+
+
+<div id="list">
+    <ol id="ol">
+
+    </ol>
+    <button type="button" onclick="button1()">Add Data</button>
+    <button type="button" onclick="button2()">Delete Data</button>
+</div>
+</form>
+<script>
+function button1(){
+    let userValue = document.getElementById("fname").value
+    document.getElementById("ol").innerHTML += `<li>${userValue} <button type = "button" onclick="del(event)">del</button></li>` 
+}
+function button2(){
+    let userValue = document.getElementById("ol").innerHTML =  ' '
+}
+function del(event){
+    event.currentTarget.parentNode.remove()
+}
+</script>
+<link rel="stylesheet" href="todolist.css"> -->
+
+<!-- ----------------------------------------------------------------------Live time----------------------------------------
+<button type="button" onclick="clearInterval()"></button>
+<p  id="showClock"></p>
+<script>
+    var clock = setInterval(clockTiming);
+    function clockTiming(){
+        var d = new Date();
+        var nafees = d.toLocaleTimeString();
+        // console.log(nafees)
+        document.getElementById("showClock").innerHTML = nafees;
+        
+    } 
+</script>
+  -->
+<!-- ----------------------------------------------false -------------------------------------------->
+<!-- <script>
+    let a = []
+    let b = []
+    console.log(a == b)
+    console.log(a === b);
+</script> -->
+<!-- -------------------------------------------------------true------------------------------------------- -->
+<!-- <script>
+    let a = []
+    let b = a;
+    console.log(a == b)       dono ki mamory location same he 
+    console.log(a === b);  
+</script> -->
+
+<!-- -------------------------------------------------------true------------------------------------------- -->
+<!-- <script>
+    let a = [20]
+    let b = [20]
+    console.log(a[0] == b[0]);
+    console.log(a[0] === b[0]);
+</script> -->
+
+<!-- -------------------------------------------------------[1,2,3,4]------------------------------------------- -->
+<!-- <script>
+    let z = [1,2,3,4]
+    let a = {name : 'nafees'}
+    console.warn(...z);
+</script> -->
+
+ <script>
+//     let i, j;
+//     for(i=1; i<=5; i++);
+//     {
+//         for(j=1; j<5; j++){ 
+//    document.write("*&nbsp; &nbsp;&nbsp");
+//         }
+//         document.write("<br>") -->
+//     }
+// -----------------------------------------------------------------------------------------------
+// const arr =10
+
+//  for(let i = arr;   i>0; i++){
+//     for(let p = 1; p > i; p++){
+//         document.write(p)
+//     }
+//     document.write("<br>")
+   
+//  }
+
+// const arr =[1,2,3,4,5]
+// for(let i =arr.length-1;i>=0;i--){
+//     console.log(arr[i]);
+// }
+
+// console.log(arr);
+    // console.log(arr[3]);
+    // const a = arr.length
+    // console.log(a);
+// ------------------------------------------------map()---------------------------------
+
+// const oldarr = ['nafees', 'khan', 'bca']
+
+//  const newarr = oldarr.map(function(cValue){
+//     return cValue + "pathan";
+    
+//    })
+
+//    console.log(newarr)
+//    console.log(oldarr)
+// ------------------------------------------------map()-----------------------------------
+// const studata = [
+//     { id : 34, name : 'nafees', sub : 'enlish'},
+//     { id : 35, name : 'zuned', sub : 'enlish'},
+//     { id : 36, name : 'sohel', sub : 'enlish'},
+//     { id : 37, name : 'amjad', sub : 'enlish'},
+//     { id : 38, name : 'farhan', sub : 'enlish'}
+// ]
+
+// const newdata = studata.map(function(cvalue){
+//     return `my name is ${cvalue.name}, my id is ${cvalue.id}`;
+// })
+// console.log(newdata)
+
+
+
+// ---------------------------------------------for Each  lopp m--------------
+
+// var  arr = [1,2,3,4,5,6,7];
+                                                                // <!-- access one by one -->
+// arr.forEach(function(element){
+//     console.log(element)
+// })
+
+
+// -------------------------------------------------REvers method use----------------------------------
+
+// var arr = [1,2,3,4,5,6,7]
+
+// arr.reverse();
+//     console.log(arr)
+
+
+
+
+// -------------------------------------------------REvers method use for lop---------------------------------
+
+// var arr = [1,2,3,4,5,6,7]
+
+// arr.reverse();
+
+
+// for(var i = 0; i< arr.length; i++){
+
+// }
+//     console.log(arr)
+
+
+// ---------------------------------------------------REvers method without revers method ----------------------
+
+// let arr = [1,2,3,4,5,6,7]
+//  let side = arr.length;
+
+// for(let i = side-1; i >= 0; i--){
+//     console.log(arr[i])
+// }
+//    -------------------------------------------------leap year program-----------------------------------
+
+// function leap(year){
+//     if(year %4 === 0){
+//         return true;
+//     }else{
+//         return false;
+//     }
+//     if(year %100 === 0){
+//         return true;
+//     }else{
+//         return false;
+//     }
+//     if(year %400 === 0){
+//         return true;
+//     }else{
+//         return false;
+//     }
+// }
+
+// const year = 2022;
+
+// if(leap(year)){
+//     console.log(year + " " +  "it is a leap year")
+// }else{
+//     console.log(year  + " " + "it is a not leap year")
+// }
+
+// --------------------------------------------------------------Fibonacci  sequence---------------------------------------
+                                                                        //  1
+// let number = 8;                                                     //   2
+// let num1 = 0, num2 = 1, helloJava;                                  //   3     
+//  for(let i = 1; i<= number; i++){                                   //   5
+//                                                                     //   8
+//     helloJava = num1 + num2;                                        //   13
+//   num1 = num2;                                                      //   21
+//   num2 = helloJava;
+//   console.log(num1);
+//  }
+
+ // ----------------------------------------------------------------------------------------------------
+
+                                                               //      *
+// for(let i = 1; i <= 5; i++){                                //      **
+//     let petern = '*'.repeat(i)                              //      *** 
+//     console.log(petern)                                     //      ****
+// }                                                           //      *****
+
+// -----------------------------------------------------------------------------------------------------
+
+// let arr = 5                                                             //  1
+// for(let i = 1; i <= arr; i++){                                          //  12
+//     for (let j = 1; j <= i; j++){                                       //  123
+//             document.write(j)                                           //  1234
+//     }                                                                   //  12345 
+//     document.write("<br/>")
+// }
+// ------------------------------------------------------------------------------------------------------
+
+// let arr = 5                                                             //  1
+// for(let i = 1; i <= arr; i++){                                          //  22
+//     for (let j = 1; j <= i; j++){                                       //  333
+//             document.write(i)                                           //  4444
+//     }                                                                   //  55555 
+//     document.write("<br/>")
+// }
+// -----------------------------------------------------------------------------------------------------
+
+// let arr = 5                                                                 //  5
+// for(let i = 1; i<=arr; i++){                                                //  55
+//     for (let j = 1; j <= i; j++){                                           //  555
+//             document.write(arr)                                             //  5555
+//     }                                                                       //  55555 
+//     document.write("<br/>") 
+// }
+// -----------------------------------------------------------------------------------------------------
+
+// let arr = 5                                                                      //  12345 
+// for(let i = arr; i>0; i--){                                                      //  1234
+//     for (let j = 1; j <= i; j++){                                                //  123
+//             document.write(j)                                                    //  12
+//     }                                                                            //  1
+//     document.write("<br/>") 
+// }
+// ---------------------------------------------------------------------------------------------------------
+
+// let arr = 5                                                                      //  12345 
+// for(let i = 0; i<arr; i++){                                                      //  1234
+//     for (let j = 1; j > i; j--){                                                //  123
+//             document.write(arr)                                                    //  12
+//     }                                                                            //  1
+//     document.write("<br/>") 
+// }
+// -------------------------------------------------------------palindrom-------------------------------------------------
+
+// let text = "hasdjfhajshgaegdsdfhgsdfghdfasdgjahj"
+// console.log(text.length);
+
+// -----------------------------------------------------------------------------------------------------------
+ 
+let sum = 0;
+const number = prompt('Enter a three-digit positive integer: ');
+
+// create a temporary variable
+let temp = number;
+while (temp > 0) {
+    // finding the one's digit
+    let remainder = temp % 10;
+
+    sum += remainder * remainder * remainder;
+
+    // removing last digit from the number
+    temp = parseInt(temp / 10); // convert float into integer
+}
+// check the condition
+if (sum == number) {
+    console.log(`${number} is an Armstrong number`);
+}
+else {
+    console.log(`${number} is not an Armstrong number.`);
+}
+
+
+
+
+</script>
+</body> 
+</html>
+

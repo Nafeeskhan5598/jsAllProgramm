@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/student.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header">
+        <h2 id="header-title">Nafees</h2>
+        <p id="tagline">computer Education</p>
+    </header>
+    <div id="content">
+        <h4>Courses</h4>
+        <ol id="items">
+            <li class="list-item">Graphics</li>
+            <li class="list-item">Web</li>
+            <li class="list-item">Video</li>
+            <li class="list-item">3D</li>
+
+        </ol>
+
+    </div>
+    <script>
+        var items = document.getElementsByClassName('list-item');
+          items[1].textContent = 'Animation';
+    </script>
+</body>
+
+</html>

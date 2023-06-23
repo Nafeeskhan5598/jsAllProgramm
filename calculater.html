@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calcu.css">
+    <title>calculater</title>
+</head>
+
+<body>
+    <div id="formate">
+        <h1>Calculater</h1>
+        <div id="background">
+
+            <form name="form1">
+
+                <!-- This input box shows the button pressed by the user in calculator. -->
+                <input id="label" type="text" name="answer">
+                <br> <br>
+                <div class="flex-container">
+                    <input type="button" class="content" value="CL" onclick="form1.answer.value = '' ">
+                    <input type="button" class="content" value="/" onclick="form1.answer.value += '/' ">
+                    <input type="button" class="content" value="*" onclick="form1.answer.value += '*' ">
+                    <input type="button" class="content" value="-" onclick="form1.answer.value += '-' ">
+
+                    <input type="button" class="content" value="1" onclick="form1.answer.value += '1' ">
+                    <input type="button" class="content" value="2" onclick="form1.answer.value += '2' ">
+                    <input type="button" class="content" value="3" onclick="form1.answer.value += '3' ">
+                   
+                   
+
+                    <input type="button" class="content" value="4" onclick="form1.answer.value += '4' ">
+                    <input type="button" class="content" value="5" onclick="form1.answer.value += '5' ">
+                    <input type="button" class="content" value="6" onclick="form1.answer.value += '6' ">
+                   
+
+                    <input type="button" class="content" value="7" onclick="form1.answer.value += '7' ">
+                    <input type="button" class="content" value="8" onclick="form1.answer.value += '8' ">
+                    <input type="button" class="content" value="9" onclick="form1.answer.value += '9' ">
+                   
+
+                 
+
+                   
+                    <input type="button" class="content" value="." onclick="form1.answer.value += '.' ">
+                    <input type="button" class="content" value="0" onclick="form1.answer.value += '0' ">
+                    <input type="button" class="content" value="+" onclick="form1.answer.value += '+' ">
+                    <input type="button" id="equalto" class="content" value="="onclick="form1.answer.value = eval(form1.answer.value) ">
+                    
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+    <h2 onclick="this.innerHTML = 'Welcome in NKKHAN5598 profile'">click me please</h2>
+    </div>
+    <script src="css/cal.css"></script>
+</body>
+
+</html>
